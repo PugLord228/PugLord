@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>123</title>
+	<title>Офигенная игра про хомяка!</title>
 	<script type="text/javascript">
 		alert("Вы хомяк и хотите кушать. Вперёд!")
 		var check_l = true;
@@ -63,6 +63,9 @@
 					alert("Поздравляю, Вы вышли на улицу!")
 				}
 				main.style.background = "url(1623198502_1-phonoteka_org-p-trava-sverkhu-tekstura-krasivo-4.jpg)";
+			}
+			if (i >= 3) {
+				alert("Поздравляю! Вы умерли!");
 			}
 		};
 		function  buttonup() {
@@ -185,8 +188,8 @@
 		</script>
 	</div>
 	<div class="main" id="main">
-		<div class="x" id="redbox" style="left: 100px; top: 200px;"></div>
-		<div class="x" id="greenbox" style="left: 400px; transform: rotate(360deg); top: 350px;"></div>
+		<div class="x" id="redbox" style="left: 100px; top: 200px;" title="Это еда для хомяка!"></div>
+		<div class="x" id="greenbox" style="left: 400px; transform: rotate(360deg); top: 350px;" title="Это хомяк!"></div>
 	</div>
 
 </body></html>
